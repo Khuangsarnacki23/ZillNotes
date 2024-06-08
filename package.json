@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && <actual-build-command>",
     "start": "next start",
     "lint": "next lint",
-    "static": "next build && next export"
+    "static": "next build && next export",
+    "postinstall":  "prisma generate"
   },
   "dependencies": {
     "@capacitor/android": "^6.0.0",
