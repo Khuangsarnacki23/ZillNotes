@@ -6,7 +6,12 @@ const nextConfig = {
                 hostname: "img.clerk.com",
             }
         ]
-    }
+    },
+    experimental: {
+        images: {
+            unoptimized: true,
+        },
+    },
 }
 
 module.exports = nextConfig
