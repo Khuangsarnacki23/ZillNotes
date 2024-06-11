@@ -24,7 +24,7 @@ export default function Home() {
         Next.js, Clerk, ShadCnUI, and more
       </p>
       <Button size="lg" asChild>
-        <Link href="/notes">Open </Link>
+        <Link href="https://zill-notes-e9r5.vercel.app/notes">Open </Link>
       </Button>
     </main>
   );
